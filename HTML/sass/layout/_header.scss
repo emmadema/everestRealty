@@ -16,6 +16,7 @@
 	}
 	.logo{
 		margin-right: 10px;
+		margin-bottom: 20px;
 	}
 
 	.site-title{
@@ -27,7 +28,7 @@
 	}
 	.site-description{
 		@include em(11);
-		color: $muted-color;
+		color: white;
 	}
 }
 
@@ -36,7 +37,7 @@
 	.menu-toggle{
 		background: none;
 		border: none;
-		color: $body-color;
+		color: white;
 		@include em(24);
 		display: inline-block;
 		vertical-align: middle;
